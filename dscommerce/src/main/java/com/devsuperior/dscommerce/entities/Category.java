@@ -58,7 +58,7 @@ public class Category {
     }
 
     @Override
-    public int hashCode() {
+    public int hashCode()   {
         return id != null ? id.hashCode() : 0;
     }
 }
